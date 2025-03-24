@@ -21,6 +21,14 @@ object HiraganaDestination : NavigationDestination {
     override val icon: ImageVector = Icons.Filled.Abc
 }
 
+@Serializable
+object KatakanaDestination : NavigationDestination {
+    override val route: String = "katakana"
+    override val titleRes: Int = R.string.katakana
+    override val icon: ImageVector = Icons.Filled.Abc
+}
+
 val topLevelRoutes = listOf(
-    HiraganaDestination
+    HiraganaDestination,
+    KatakanaDestination
 )

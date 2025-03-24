@@ -6,6 +6,7 @@ import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -70,6 +71,7 @@ private fun BottomNavigationBar(navController: NavHostController) {
                             restoreState = true
                         }
                     },
+                    label = { Text(stringResource(topLevelRoute.titleRes)) },
                     icon = {
                         Icon(
                             imageVector = topLevelRoute.icon!!,

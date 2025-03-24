@@ -65,7 +65,16 @@ fun NihongoNavHost(
             popEnterTransition = slideIntoTransition,
             popExitTransition = slideOutOfTransition
         ) {
-            HiraganaScreen(buildScaffoldConfiguration)
+            HiraganaScreen(buildScaffoldConfiguration = buildScaffoldConfiguration)
+        }
+
+        composable<KatakanaDestination>(
+            enterTransition = slideIntoTransition,
+            exitTransition = slideOutOfTransition,
+            popEnterTransition = slideIntoTransition,
+            popExitTransition = slideOutOfTransition
+        ) {
+            HiraganaScreen(buildScaffoldConfiguration = buildScaffoldConfiguration)
         }
     }
 }

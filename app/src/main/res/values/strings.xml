@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">Nihongo Practice</string>
     <string name="hiragana">Hiragana</string>
+    <string name="katakana">Katakana</string>
+    <string name="vowels">Vowels</string>
+    <string name="k">k</string>
+    <string name="s">s</string>
+    <string name="t">t</string>
+    <string name="n">n</string>
+    <string name="h">h</string>
+    <string name="m">m</string>
+    <string name="y">y</string>
+    <string name="r">r</string>
+    <string name="w">w</string>
+    <string name="consonants">Consonants</string>
+    <string name="kDakuten">k Dakuten</string>
+    <string name="sDakuten">s Dakuten</string>
+    <string name="tDakuten">t Dakuten</string>
+    <string name="hDakuten">h Dakuten</string>
+    <string name="hHandakuten">h Handakuten</string>
 </resources>
